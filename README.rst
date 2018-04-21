@@ -1,11 +1,7 @@
 asyncDownloader
 ===============
 
-.. image:: https://img.shields.io/pypi/v/asyncDownloader.svg
-    :target: https://pypi.python.org/pypi/asyncDownloader
-    :alt: Latest PyPI version
-
-.. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
+.. image:: https://www.travis-ci.org/DINGDAMU/asyncDownloader 
    :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
    :alt: Latest Travis CI build status
 
