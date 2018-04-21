@@ -1,7 +1,7 @@
 asyncDownloader
 ===============
 
-.. image:: https://www.travis-ci.org/DINGDAMU/asyncDownloader 
+.. image:: https://www.travis-ci.org/DINGDAMU/asyncDownloader.png 
    :target: https://www.travis-ci.org/DINGDAMU/asyncDownloader  
    :alt: Latest Travis CI build status
 
