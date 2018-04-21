@@ -2,7 +2,7 @@ asyncDownloader
 ===============
 
 .. image:: https://www.travis-ci.org/DINGDAMU/asyncDownloader 
-   :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
+   :target: https://www.travis-ci.org/DINGDAMU/asyncDownloader  
    :alt: Latest Travis CI build status
 
 An opinionated, minimal cookiecutter template for Python packages
