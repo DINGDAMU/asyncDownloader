@@ -1,3 +1,4 @@
 {
+  "test_add.py::TestClass": true, 
   "tests/test_sample.py::test_sum": true
 }
