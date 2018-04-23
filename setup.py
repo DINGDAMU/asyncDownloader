@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="asyncDownloader",
     version="0.0.1",
-    url="https://github.com/DINGDAMU/asyncDownloader"
+    url="https://github.com/DINGDAMU/asyncDownloader",
 
     author="DAMU DING",
     author_email="dingdamu@gmail.com",
