@@ -1,4 +1,6 @@
 language: python
+before_install:
+  -pip3 install tox
 script:
   - tox
 after_success:
