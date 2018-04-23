@@ -37,3 +37,5 @@ nosetests.xml
 
 #coveralls.yml
 .coveralls.yml
+.ropeproject
+
