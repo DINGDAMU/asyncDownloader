@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-import sys
-from asyncDownloaderMain.addtwonum import *
+from asyncDownloader.addtwonum import *
 class TestClass(unittest.TestCase):
     """Test case docstring."""
     def test_Sample(self):
