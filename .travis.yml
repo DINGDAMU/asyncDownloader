@@ -1,4 +1,4 @@
 language: python
-before_install: sudo pip3 install tox
+before_install: sudo pip install tox
 script: tox
 after_success: coveralls
