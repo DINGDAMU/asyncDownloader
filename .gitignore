@@ -38,4 +38,4 @@ nosetests.xml
 #coveralls.yml
 .coveralls.yml
 .ropeproject
-
+.pytest_cache
