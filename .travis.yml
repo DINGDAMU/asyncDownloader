@@ -1,4 +1,8 @@
 language: python
-before_install: sudo pip install tox
-script: tox
+python: -"3.6"
+before_install: sudo pip install requirements.txt
+script: coverage run --source=asyncDownloader setup.py test
+env:
+  global:
+    secure: qJV+bCG6XxvVczYtpbOPUoxsqIfom5N+0emIv/iTuBHS/uO+ul5Xb7IRYCCgMfWqTQR3k6+KappI+kDYhvQti78kouqbQlPpKLmVSi1t0seBN8HbUKtEaNqSM9fB2JayU4y4lfwwXQh4mAmYsEn1F2XIjVWLykHnryeJFy0AdCCaxAsIwmsnJdyZ9IeJmLXH7Pa1tvdw6TMgUfBsWY5fnZRDqYEXrSoLmsk3XBj5BiPe+p3hc0M9MskaQWBDiykxkgPwGOvui80aJ9vpq8m+jp1gFCyHAPJebHI6OZkmPGTk/yoUH+RfWoh26V5RxCzYoNdxzesRribxFhKRRbR2yaNGQ4GivbbBHACRVrxEF6E+jGEuw/cOU+twdlSVAT26jiOcZdtBZvoPF4Oz1oo8i+w4Qq6TxSjFUHa+Ro4YFMDnWwAqL/41lpzIUei0oEz66qlf02XkhgidvwE8KMbcqLjo0UOIP9npmI7KVg1FTVkJVEomGrGi7HDY5zkisqnzVb4imiAXxfgN9S1JRyr6YEEl8dZNEm6CmjGoeUCs+RnTOo+B/BDcdGfcVGfPIEz5M/gBAkhJNaO693gC1iYrlgjPPYWf4srEFx0PSDWB+UPCLcPPL6wEM7NXoZ7hzwbKqxUS7Ox53NniqEAA1Z3JMC4J0iSssJCKMrzquzzBTlk=
 after_success: coveralls
